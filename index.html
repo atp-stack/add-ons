@@ -6,7 +6,8 @@
   <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css'>
 <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css'><link rel="stylesheet" href="./style.css">
-
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </head>
 <body>
 <!-- partial:index.partial.html -->
@@ -23,62 +24,17 @@
                     </div>
                     <div class="col-lg-9">
                         <div class="services-tab-links">
-                            <ul class="nav nav-pills tab-slider">
-                                <li>
-                                    <a href="#tab1" data-toggle="pill" class="active">
-                                        <!-- <span class="flaticon-code"> <img src="https://image.flaticon.com/icons/svg/1336/1336494.svg" alt="" class="img-fluid"/> </span> -->
-                                        Concept Development
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#tab2" data-toggle="pill">
-                                        <!-- <span class="flaticon-brush"><img src="https://image.flaticon.com/icons/svg/763/763206.svg" alt="" class="img-fluid"/></span> -->
-                                        Script Services
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#tab3" data-toggle="pill">
-                                        <!-- <span class="flaticon-app"><img src="https://image.flaticon.com/icons/svg/103/103497.svg" alt="" class="img-fluid"/></span> -->
-                                        Design and Branding
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#tab4" data-toggle="pill">
-                                        <!-- <span class="flaticon-report"><img src="https://image.flaticon.com/icons/svg/477/477890.svg" alt="" class="img-fluid"/></span> -->
-                                        Casting and Talent Attachments
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#tab5" data-toggle="pill">
-                                        <!-- <span class="flaticon-app"><img src="https://image.flaticon.com/icons/svg/103/103497.svg" alt="" class="img-fluid"/></span> -->
-                                        Budget and Schedule
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#tab6" data-toggle="pill">
-                                        <!-- <span class="flaticon-report"><img src="https://image.flaticon.com/icons/svg/477/477890.svg" alt="" class="img-fluid"/></span> -->
-                                        Legal and Business Affairs
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#tab7" data-toggle="pill">
-                                        <!-- <span class="flaticon-report"><img src="https://image.flaticon.com/icons/svg/477/477890.svg" alt="" class="img-fluid"/></span> -->
-                                        Additional Pitching Materials
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#tab8" data-toggle="pill">
-                                        <!-- <span class="flaticon-report"><img src="https://image.flaticon.com/icons/svg/477/477890.svg" alt="" class="img-fluid"/></span> -->
-                                        Distribution and Monetization
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#tab9" data-toggle="pill">
-                                        <!-- <span class="flaticon-report"><img src="https://image.flaticon.com/icons/svg/477/477890.svg" alt="" class="img-fluid"/></span> -->
-                                        Production Plan
-                                    </a>
-                                </li>
-                            </ul>
+                            <select id="services-dropdown" class="form-control">
+                                <option value="#tab1">Concept Development</option>
+                                <option value="#tab2">Script Services</option>
+                                <option value="#tab3">Design and Branding</option>
+                                <option value="#tab4">Casting and Talent Attachments</option>
+                                <option value="#tab5">Budget and Schedule</option>
+                                <option value="#tab6">Legal and Business Affairs</option>
+                                <option value="#tab7">Additional Pitching Materials</option>
+                                <option value="#tab8">Distribution and Monetization</option>
+                                <option value="#tab9">Production Plan</option>
+                            </select>
                         </div>
                     </div>
                 </div>
@@ -87,7 +43,7 @@
         <div class="service-tab">
             <div class="container">
                 <div class="tab-content">
-                    <div class="tab-pane fade in active show" id="tab1"> 
+                    <div class="tab-pane fade active show" id="tab1"> 
                         <div class="tab-content">
                             <div class="row">
                                 <div class="col-lg-6">
@@ -406,6 +362,8 @@
   <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
 <script src='https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js'></script>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js'></script><script  src="./script.js"></script>
+<!-- Include jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
 </body>
 </html>
